@@ -141,12 +141,20 @@
         <header>
             <p class="etiqueta">Como Trabalhamos</p>
             <h3>Como Criamos o Seu Site</h3>
+            <h4>
+                Um processo estruturado e transparente, 
+                do primeiro alinhamento ao lançamento otimizado, 
+                para que seu projeto chegue ao ar com excelência técnica e visual.
+            </h4>
         </header>
         <div class="linha-tempo">
         
             <div class="item-linha-tempo">
-                <div class="periodo-linha-tempo">1</div>
-                <div class="titulo-linha-tempo">
+                <div class="item-titulo-lp">
+                    <img src="assets/brief-24.png" alt=""></img>
+                    <p>01</p>
+                </div>
+                <div class="item-paragrafo-lp">
                     <h4>Briefing e Alinhamento Inicial</h4>
                     <p>Tudo começa com o briefing. Nessa etapa, a 
                     agência conversa com o cliente para entender 
@@ -161,8 +169,8 @@
     
             <div class="item-linha-tempo">
                 <div class="item-titulo-lp">
-                    <img src="assets/email-32.png" alt=""></img>
-                    <p>01</p>
+                    <img src="assets/mapa-24.png" alt=""></img>
+                    <p>02</p>
                 </div>
 
                 <div class="item-paragrafo-lp">
@@ -177,8 +185,11 @@
             </div>
     
             <div class="item-linha-tempo">
-                <div class="periodo-linha-tempo">3</div>
-                <div class="titulo-linha-tempo">
+                <div class="item-titulo-lp">
+                    <img src="assets/design-24.png" alt=""></img>
+                    <p>03</p>
+                </div>
+                <div class="item-paragrafo-lp">
                     <h4>Criação do Design (UI/UX)</h4>
                     <p>Depois disso, entra a fase de design. Os designers criam a 
                     aparência do site, incluindo cores, tipografia, imagens e 
@@ -190,8 +201,11 @@
             </div>
     
             <div class="item-linha-tempo">
-                <div class="periodo-linha-tempo">4</div>
-                <div class="titulo-linha-tempo">
+                <div class="item-titulo-lp">
+                    <img src="assets/terminal-24.png" alt=""></img>
+                    <p>04</p>
+                </div>
+                <div class="item-paragrafo-lp"">
                     <h4>Desenvolvimento e Programação</h4>
                     <p>Com o design aprovado, começa o desenvolvimento. Os desenvolvedores 
                     transformam o layout em um site funcional usando código (HTML, CSS, 
@@ -202,8 +216,11 @@
             </div>
     
             <div class="item-linha-tempo">
-                <div class="periodo-linha-tempo">5</div>
-                <div class="titulo-linha-tempo">
+                <div class="item-titulo-lp">
+                    <img src="assets/zoom-in-24.png" alt=""></img>
+                    <p>05</p>
+                </div>
+                <div class="item-paragrafo-lp"">
                     <h4>Testes e Ajustes Finais</h4>
                     <p>Na sequência, vem a etapa de testes. A agência verifica se tudo está 
                     funcionando corretamente, corrigindo erros, testando em diferentes 
@@ -213,16 +230,19 @@
             </div>
 
             <div class="item-linha-tempo">
-                <div class="periodo-linha-tempo">6</div>
-                    <div class="titulo-linha-tempo">
+                <div class="item-titulo-lp">
+                    <img src="assets/launch-24.png" alt=""></img>
+                    <p>06</p>
+                </div>
+                <div class="item-paragrafo-lp"">
                     <h4>Lançamento e Pós-Produção</h4>
                     <p>Por fim, acontece o lançamento. O site é publicado no servidor e 
                     passa a ficar disponível para o público. Mesmo depois disso, a 
                     agência pode continuar oferecendo suporte, atualizações e melhorias 
                     contínuas, garantindo que o site continue funcionando bem e 
                     evoluindo com o tempo.</p>
-                    </div>
                 </div>
+            </div>
 
         </div>
 
@@ -480,7 +500,7 @@
                     <p class="etiqueta">Fale Conosco</p>
                     <h3>Vamos construir sua próxima <br> solução digital juntos?</h3>
                     <h4>Preencha o formulário e agende uma conversa <br> detalhada
-                        com um consultor especialista do nosso time.
+                        com um especialista do nosso time.
                     </h4>
 
                     <ul>
