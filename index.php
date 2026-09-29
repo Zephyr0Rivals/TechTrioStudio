@@ -107,9 +107,23 @@
     </nav>
     <!-- CORPO -->
     <main>
-        <section class="banner">
-            <img src="assets/banner1-atual.png" alt="Banner 1">
-            <img src="assets/banner2-atual.png" alt="Banner 2">
+        <section>
+            <div class="banner">
+                <img src="assets/banner1-atual.png" alt="Banner 1">
+                <img src="assets/banner2-atual.png" alt="Banner 2">
+                
+            </div>
+                <div class="banner-texto">
+                    <h2>
+                        A engenharia digital 
+                        por <br> trás dos melhores <br> 
+                        <span>resultados</span>
+                    </h2>
+                    <p> Desenvolvemos sites de altíssimo desempenho, landing pages de <br>
+                        alta conversão e estratégias de SEO robustas com suporte <br>
+                        especializado contínuo.
+                    </p>
+                </div>
 
         </section>
 
