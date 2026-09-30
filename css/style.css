@@ -305,6 +305,96 @@ body{
 
 /* FIM SOBRE */
 
+/* NOSSOS SERVIÇOS */
+
+.nossos-servicos{
+    background-color: var(--cor-fundo-2);
+}
+
+.nossos-servicos header h3{
+    color: var(--cor-titulo);
+    font-family: var(--fonte-titulo);
+    margin: 0 0 28px;
+}
+
+.nossos-servicos-inteiro {
+    padding: 120px 0 120px 0;
+    
+}
+
+.nossos-servicos .coluna_de_servicos{
+    padding-top: 8px;
+    max-width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 14px;
+    margin-bottom: 50px;
+}
+
+
+.nossos-servicos .coluna_de_servicos .coluna_singular{
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 20px;
+    background-color: var(--cor-fundo-1);
+    border: 1px solid var(--cor-traço);
+    border-radius: 6px;
+}
+
+.nossos-servicos .coluna_de_servicos .coluna_singular img{
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 16px;
+    width: 34px;
+    height: 34px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #14DFD0;
+    transition: transform 0.25s ease;
+    transform-origin: center;
+}
+
+.nossos-servicos .coluna_de_servicos .coluna_singular img:hover{
+    transform: translateY(-10px) scale(1.3);
+}
+
+.nossos-servicos .coluna_de_servicos .coluna_singular h3{
+    margin: 0 0 8px;
+    color: var(--cor-titulo);
+    font-family: var(--fonte-texto);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nossos-servicos .coluna_de_servicos .coluna_singular p{
+   margin: 0;
+   font-size: 12px;
+   line-height: 1.45;
+}
+
+@media (max-width: 800px){
+    .nossos-servicos .coluna_de_servicos{
+        flex-wrap: wrap;
+    }
+
+    .nossos-servicos .coluna_de_servicos .coluna_singular{
+        flex: 1 1 calc(50% - 14px);
+    }
+}
+
+@media (max-width: 520px){
+    .nossos-servicos header h3{
+        font-size: 24px;
+    }
+
+    .nossos-servicos .coluna_de_servicos .coluna_singular{
+        flex-basis: 100%;
+    }
+}
+
+/* FIM SERVIÇOS */
+
 /*! LINHA TEMPO */
 .secao-linha-tempo header h3{
     color: var(--cor-titulo);
@@ -462,53 +552,7 @@ body{
 }
 /* Final de Equipe */
 
-/* NOSSOS SERVIÇOS */
 
-
-.nossos-servicos header h3{
-    color: var(--cor-titulo);
-    font-size: 40px;
-    font-family: var(--fonte-titulo);
-    margin-bottom: 40px;
-}
-
-.nossos-servicos .coluna_de_servicos{
-    padding-top: 50px;
-    max-width: 1500px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 90px;
-}
-
-.nossos-servicos .coluna_de_servicos .coluna_singular{
-    max-width: 300px;
-    padding: 20px;
-    background-color: ;
-    border-radius: 30px;
-}
-
-.nossos-servicos .coluna_de_servicos .coluna_singular img{
-    margin-bottom: 20px;
-    width: 50px;
-    transition: transform 0.25s ease;
-    transform-origin: center;
-}
-
-.nossos-servicos .coluna_de_servicos .coluna_singular img:hover{
-    transform: translateY(-10px) scale(1.3);
-}
-
-.nossos-servicos .coluna_de_servicos .coluna_singular h3{
-    margin-bottom: 20px;
-    color: var(--cor-secundaria-2);
-}
-
-.nossos-servicos .coluna_de_servicos .coluna_singular p{
-   line-height: 0.9;
-}
-
-/* FIM SERVIÇOS */
 
 /* ComeÃ§o Funcionamentos do Site */
     /* .funcionamentos header h3{

@@ -142,9 +142,9 @@
         </section>
 
         <!-- COMEÇOO DOS NOSSO SERVIÇOS -->
-        <section id="servicos" class="nossos-servicos site">
+        <section id="servicos" class="nossos-servicos">
             
-        
+        <div class="nossos-servicos-inteiro site">
             <header>
                 <p class="etiqueta">Nossos Serviços</p>
                 <h3>Soluções completas sob medida para sua empresa</h3>
@@ -178,6 +178,7 @@
                 </div>
 
             </div>
+        </div>
 
         </section>
         <!-- FINAL DOS NOSSO SERVIÇOS -->
