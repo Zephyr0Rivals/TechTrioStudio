@@ -76,7 +76,7 @@
 </head>
 
 <body>
-    <section class="topo site">
+    <section id="home" class="topo site">
         <div>
             <!---- LOGO ---->
             <header>
@@ -85,20 +85,23 @@
 
             <!---- MENU ---->
             <nav class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Portifólio</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
+                <div>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
 
                 <!------ REDES SOCIAIS ------>
-
-                <ul class="redeSociais">
-                    <li><a href="#"><img src="assets/instagram-24.png" alt="Logo instagram - Tech Trio Studio"></a></li>
-                    <li><a href="#"><img src="assets/whatsapp-24.png" alt="Logo whatsApp - Tech Trio Studio"></a></li>
-                </ul>
+                <div>
+                    <ul class="redeSociais">
+                        <li><a href="#"><img src="assets/instagram-24.png" alt="instagram - Tech Trio Studio"></a></li>
+                        <li><a href="#"><img src="assets/linkedin-24.png" alt="Linkedin"></a></li>
+                        <li><a href="#"><img src="assets/whatsapp-24.png" alt="whatsApp - Tech Trio Studio"></a></li>
+                    </ul>
+                </div>
             </nav>
 
         </div>
@@ -113,21 +116,10 @@
                 <img src="assets/banner2-atual.png" alt="Banner 2">
                 
             </div>
-                <div class="banner-texto">
-                    <h2>
-                        A engenharia digital 
-                        por <br> trás dos melhores <br> 
-                        <span>resultados</span>
-                    </h2>
-                    <p> Desenvolvemos sites de altíssimo desempenho, landing pages de <br>
-                        alta conversão e estratégias de SEO robustas com suporte <br>
-                        especializado contínuo.
-                    </p>
-                </div>
 
         </section>
 
-        <section class="sobre site">
+        <section id="sobre" class="sobre site">
             <header>
                 <h3>Quem somos</h3>
             </header>
@@ -149,261 +141,15 @@
                 </div>
         </section>
 
-    <!-- LINHA DO TEMPO -->
-    <section class="secao-linha-tempo site">
-
-        <header>
-            <p class="etiqueta">Como Trabalhamos</p>
-            <h3>Como Criamos o Seu Site</h3>
-            <h4>
-                Um processo estruturado e transparente, 
-                do primeiro alinhamento ao lançamento otimizado, 
-                para que seu projeto chegue ao ar com excelência técnica e visual.
-            </h4>
-        </header>
-        <div class="linha-tempo">
-        
-            <div class="item-linha-tempo">
-                <div class="item-titulo-lp">
-                    <img src="assets/brief-24.png" alt=""></img>
-                    <p>01</p>
-                </div>
-                <div class="item-paragrafo-lp">
-                    <h4>Briefing e Alinhamento Inicial</h4>
-                    <p>Tudo começa com o briefing. Nessa etapa, a 
-                    agência conversa com o cliente para entender 
-                    o objetivo do site, público-alvo, 
-                    concorrentes e funcionalidades necessárias. 
-                    É aqui que se definem pontos como estilo 
-                    visual, páginas principais e metas do projeto. 
-                    Quanto mais claro for esse alinhamento, melhor 
-                    será todo o processo.</p>
-                </div>
-            </div>
-    
-            <div class="item-linha-tempo">
-                <div class="item-titulo-lp">
-                    <img src="assets/mapa-24.png" alt=""></img>
-                    <p>02</p>
-                </div>
-
-                <div class="item-paragrafo-lp">
-                    <h4>Planejamento e Estrutura do Site</h4>
-                    <p>Em seguida vem o planejamento. A equipe organiza a estrutura do site (sitemap), 
-                    define quais páginas existirão e como o usuário irá navegar entre elas. 
-                    Também são escolhidas tecnologias, prazos e prioridades. Muitas vezes, 
-                    são criados wireframes simples para visualizar a disposição dos elementos 
-                    antes do design final.</p>
-                </div>
-                
-            </div>
-    
-            <div class="item-linha-tempo">
-                <div class="item-titulo-lp">
-                    <img src="assets/design-24.png" alt=""></img>
-                    <p>03</p>
-                </div>
-                <div class="item-paragrafo-lp">
-                    <h4>Criação do Design (UI/UX)</h4>
-                    <p>Depois disso, entra a fase de design. Os designers criam a 
-                    aparência do site, incluindo cores, tipografia, imagens e 
-                    layout. É nessa etapa que o projeto ganha identidade visual 
-                    e começa a se parecer com o produto final. O cliente geralmente 
-                    revisa e aprova antes de seguir adiante.</p>
-                </div>
-                
-            </div>
-    
-            <div class="item-linha-tempo">
-                <div class="item-titulo-lp">
-                    <img src="assets/terminal-24.png" alt=""></img>
-                    <p>04</p>
-                </div>
-                <div class="item-paragrafo-lp"">
-                    <h4>Desenvolvimento e Programação</h4>
-                    <p>Com o design aprovado, começa o desenvolvimento. Os desenvolvedores 
-                    transformam o layout em um site funcional usando código (HTML, CSS, 
-                    JavaScript e, se necessário, back-end). Aqui são implementadas todas 
-                    as interações, responsividade (adaptação para celular) e funcionalidades 
-                    definidas no início.</p>
-                </div> 
-            </div>
-    
-            <div class="item-linha-tempo">
-                <div class="item-titulo-lp">
-                    <img src="assets/zoom-in-24.png" alt=""></img>
-                    <p>05</p>
-                </div>
-                <div class="item-paragrafo-lp"">
-                    <h4>Testes e Ajustes Finais</h4>
-                    <p>Na sequência, vem a etapa de testes. A agência verifica se tudo está 
-                    funcionando corretamente, corrigindo erros, testando em diferentes 
-                    dispositivos e navegadores, e garantindo boa performance. Também são 
-                    feitos ajustes finais com base no feedback do cliente.</p>
-                </div> 
-            </div>
-
-            <div class="item-linha-tempo">
-                <div class="item-titulo-lp">
-                    <img src="assets/launch-24.png" alt=""></img>
-                    <p>06</p>
-                </div>
-                <div class="item-paragrafo-lp"">
-                    <h4>Lançamento e Pós-Produção</h4>
-                    <p>Por fim, acontece o lançamento. O site é publicado no servidor e 
-                    passa a ficar disponível para o público. Mesmo depois disso, a 
-                    agência pode continuar oferecendo suporte, atualizações e melhorias 
-                    contínuas, garantindo que o site continue funcionando bem e 
-                    evoluindo com o tempo.</p>
-                </div>
-            </div>
-
-        </div>
-
-
-    </section>
-    <!-- FINAL LINHA TEMPO -->
-
-    <!-- EQUIPE -->
-    <section class="equipe">
-
-        <div class="teste site">
-            <header class="cabecario-equipe">
-                <p class="etiqueta">Quem cria sua infraestrutura</p>
-                <h3>Especialistas Dedicados ao seu Projeto</h3>
-            </header>
-
-            <div class="cards-equipe">
-                <div class="card">
-                    <img src="./assets/yuri_foto.png" alt="foto do membro do TechTrioStudio">
-                    <h3>Yuri Lemos</h3>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/foto_arthur.png" alt="foto do membro do TechTrioStudio">
-                    <h3>Arthur Costa</h3>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/kevelly_foto.png" alt="foto da membra do TechTrioStudio">
-                    <h3>Kevelly Calvacanti</h3>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- FIM DE EQUIPES -->
-
-    <!-- Funcionamentos do Site -->
-    <section class="site funcionamentos">
-        <header>
-            <h3>Funcionamentos do Site</h3>
-        </header>
-
-        <div class="funcional-todos">
-            <div class="funcionalidades">
-                <div class="cards-funcio">
-                    <img src="./assets/analysis.svg" alt="">
-                    <h4>Briefing e Alinhamento</h4>
-                    <p>Tudo começa com uma conversa estratégica 
-                        para entender o objetivo do site, o 
-                        público-alvo e as necessidades do 
-                        cliente. Nessa fase, são definidos os 
-                        requisitos principais, referências 
-                        visuais e metas do projeto, garantindo 
-                        que todos estejam alinhados antes de iniciar.</p>
-                </div>
-                
-            </div>
-
-            <div class="funcionalidades">
-                <div class="cards-funcio">
-                    <img src="./assets/analysis.svg" alt="">
-                    <h4>Briefing e Alinhamento</h4>
-                    <p>Tudo começa com uma conversa estratégica 
-                        para entender o objetivo do site, o 
-                        público-alvo e as necessidades do 
-                        cliente. Nessa fase, são definidos os 
-                        requisitos principais, referências 
-                        visuais e metas do projeto, garantindo 
-                        que todos estejam alinhados antes de iniciar.</p>
-                </div>
-                
-            </div>
-
-            <div class="funcionalidades">
-                <div class="cards-funcio">
-                    <img src="./assets/analysis.svg" alt="">
-                    <h4>Briefing e Alinhamento</h4>
-                    <p>Tudo começa com uma conversa estratégica 
-                        para entender o objetivo do site, o 
-                        público-alvo e as necessidades do 
-                        cliente. Nessa fase, são definidos os 
-                        requisitos principais, referências 
-                        visuais e metas do projeto, garantindo 
-                        que todos estejam alinhados antes de iniciar.</p>
-                </div>
-                
-            </div>
-
-            <div class="funcionalidades">
-                <div class="cards-funcio">
-                    <img src="./assets/analysis.svg" alt="">
-                    <h4>Briefing e Alinhamento</h4>
-                    <p>Tudo começa com uma conversa estratégica 
-                        para entender o objetivo do site, o 
-                        público-alvo e as necessidades do 
-                        cliente. Nessa fase, são definidos os 
-                        requisitos principais, referências 
-                        visuais e metas do projeto, garantindo 
-                        que todos estejam alinhados antes de iniciar.</p>
-                </div>
-                
-            </div>
-
-            <div class="funcionalidades">
-                <div class="cards-funcio">
-                    <img src="./assets/analysis.svg" alt="">
-                    <h4>Briefing e Alinhamento</h4>
-                    <p>Tudo começa com uma conversa estratégica 
-                        para entender o objetivo do site, o 
-                        público-alvo e as necessidades do 
-                        cliente. Nessa fase, são definidos os 
-                        requisitos principais, referências 
-                        visuais e metas do projeto, garantindo 
-                        que todos estejam alinhados antes de iniciar.</p>
-                </div>
-                
-            </div>
-
-            <div class="funcionalidades">
-                <div class="cards-funcio">
-                    <img src="./assets/analysis.svg" alt="">
-                    <h4>Briefing e Alinhamento</h4>
-                    <p>Tudo começa com uma conversa estratégica 
-                        para entender o objetivo do site, o 
-                        público-alvo e as necessidades do 
-                        cliente. Nessa fase, são definidos os 
-                        requisitos principais, referências 
-                        visuais e metas do projeto, garantindo 
-                        que todos estejam alinhados antes de iniciar.</p>
-                </div>
-                
-            </div>
-        </div>
-
-        
-    </section>
-    <!-- Final Funcionamento do Site -->
-
         <!-- COMEÇOO DOS NOSSO SERVIÇOS -->
-        <section class="nossos-servicos">
+        <section id="servicos" class="nossos-servicos site">
+            
+        
             <header>
-                <h3>Veja Nossos Serviços</h3>
+                <p class="etiqueta">Nossos Serviços</p>
+                <h3>Soluções completas sob medida para sua empresa</h3>
             </header>
-            <div>
-                <p>O que oferecemos a nossos clientes</p>
-            </div>
+           
             <div class="coluna_de_servicos">
                 <div class="coluna_singular">
                     <img src="assets/rolo-de-pintura.svg" alt="icon no paint">
@@ -435,6 +181,258 @@
 
         </section>
         <!-- FINAL DOS NOSSO SERVIÇOS -->
+
+        <!-- LINHA DO TEMPO -->
+        <section class="secao-linha-tempo site">
+
+            <header>
+                <p class="etiqueta">Como Trabalhamos</p>
+                <h3>Como Criamos o Seu Site</h3>
+                <h4>
+                    Um processo estruturado e transparente, 
+                    do primeiro alinhamento ao lançamento otimizado, 
+                    para que seu projeto chegue ao ar com excelência técnica e visual.
+                </h4>
+            </header>
+            <div class="linha-tempo">
+            
+                <div class="item-linha-tempo">
+                    <div class="item-titulo-lp">
+                        <img src="assets/brief-24.png" alt=""></img>
+                        <p>01</p>
+                    </div>
+                    <div class="item-paragrafo-lp">
+                        <h4>Briefing e Alinhamento Inicial</h4>
+                        <p>Tudo começa com o briefing. Nessa etapa, a 
+                        agência conversa com o cliente para entender 
+                        o objetivo do site, público-alvo, 
+                        concorrentes e funcionalidades necessárias. 
+                        É aqui que se definem pontos como estilo 
+                        visual, páginas principais e metas do projeto. 
+                        Quanto mais claro for esse alinhamento, melhor 
+                        será todo o processo.</p>
+                    </div>
+                </div>
+        
+                <div class="item-linha-tempo">
+                    <div class="item-titulo-lp">
+                        <img src="assets/mapa-24.png" alt=""></img>
+                        <p>02</p>
+                    </div>
+
+                    <div class="item-paragrafo-lp">
+                        <h4>Planejamento e Estrutura do Site</h4>
+                        <p>Em seguida vem o planejamento. A equipe organiza a estrutura do site (sitemap), 
+                        define quais páginas existirão e como o usuário irá navegar entre elas. 
+                        Também são escolhidas tecnologias, prazos e prioridades. Muitas vezes, 
+                        são criados wireframes simples para visualizar a disposição dos elementos 
+                        antes do design final.</p>
+                    </div>
+                    
+                </div>
+        
+                <div class="item-linha-tempo">
+                    <div class="item-titulo-lp">
+                        <img src="assets/design-24.png" alt=""></img>
+                        <p>03</p>
+                    </div>
+                    <div class="item-paragrafo-lp">
+                        <h4>Criação do Design (UI/UX)</h4>
+                        <p>Depois disso, entra a fase de design. Os designers criam a 
+                        aparência do site, incluindo cores, tipografia, imagens e 
+                        layout. É nessa etapa que o projeto ganha identidade visual 
+                        e começa a se parecer com o produto final. O cliente geralmente 
+                        revisa e aprova antes de seguir adiante.</p>
+                    </div>
+                    
+                </div>
+        
+                <div class="item-linha-tempo">
+                    <div class="item-titulo-lp">
+                        <img src="assets/terminal-24.png" alt=""></img>
+                        <p>04</p>
+                    </div>
+                    <div class="item-paragrafo-lp"">
+                        <h4>Desenvolvimento e Programação</h4>
+                        <p>Com o design aprovado, começa o desenvolvimento. Os desenvolvedores 
+                        transformam o layout em um site funcional usando código (HTML, CSS, 
+                        JavaScript e, se necessário, back-end). Aqui são implementadas todas 
+                        as interações, responsividade (adaptação para celular) e funcionalidades 
+                        definidas no início.</p>
+                    </div> 
+                </div>
+        
+                <div class="item-linha-tempo">
+                    <div class="item-titulo-lp">
+                        <img src="assets/zoom-in-24.png" alt=""></img>
+                        <p>05</p>
+                    </div>
+                    <div class="item-paragrafo-lp"">
+                        <h4>Testes e Ajustes Finais</h4>
+                        <p>Na sequência, vem a etapa de testes. A agência verifica se tudo está 
+                        funcionando corretamente, corrigindo erros, testando em diferentes 
+                        dispositivos e navegadores, e garantindo boa performance. Também são 
+                        feitos ajustes finais com base no feedback do cliente.</p>
+                    </div> 
+                </div>
+
+                <div class="item-linha-tempo">
+                    <div class="item-titulo-lp">
+                        <img src="assets/launch-24.png" alt=""></img>
+                        <p>06</p>
+                    </div>
+                    <div class="item-paragrafo-lp"">
+                        <h4>Lançamento e Pós-Produção</h4>
+                        <p>Por fim, acontece o lançamento. O site é publicado no servidor e 
+                        passa a ficar disponível para o público. Mesmo depois disso, a 
+                        agência pode continuar oferecendo suporte, atualizações e melhorias 
+                        contínuas, garantindo que o site continue funcionando bem e 
+                        evoluindo com o tempo.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+        <!-- FINAL LINHA TEMPO -->
+
+        <!-- EQUIPE -->
+        <section id="time" class="equipe">
+
+            <div class="teste site">
+                <header class="cabecario-equipe">
+                    <p class="etiqueta">Quem cria sua infraestrutura</p>
+                    <h3>Especialistas Dedicados ao seu Projeto</h3>
+                    <h4>Unindo engenharia, estratégia de negóciose design de ponta sob a mesma marca.</h4>
+                </header>
+
+                <div class="cards-equipe">
+                    <div class="card">
+                        <img src="./assets/yuri_foto.png" alt="foto do membro do TechTrioStudio">
+                        <h3>Yuri Lemos</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/foto_arthur.png" alt="foto do membro do TechTrioStudio">
+                        <h3>Arthur Costa</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/kevelly_foto.png" alt="foto da membra do TechTrioStudio">
+                        <h3>Kevelly Calvacanti</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- FIM DE EQUIPES -->
+
+        
+
+        <!-- Funcionamentos do Site -->
+        <!-- <section class="site funcionamentos">
+            <header>
+                <h3>Funcionamentos do Site</h3>
+            </header>
+
+            <div class="funcional-todos">
+                <div class="funcionalidades">
+                    <div class="cards-funcio">
+                        <img src="./assets/analysis.svg" alt="">
+                        <h4>Briefing e Alinhamento</h4>
+                        <p>Tudo começa com uma conversa estratégica 
+                            para entender o objetivo do site, o 
+                            público-alvo e as necessidades do 
+                            cliente. Nessa fase, são definidos os 
+                            requisitos principais, referências 
+                            visuais e metas do projeto, garantindo 
+                            que todos estejam alinhados antes de iniciar.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="funcionalidades">
+                    <div class="cards-funcio">
+                        <img src="./assets/analysis.svg" alt="">
+                        <h4>Briefing e Alinhamento</h4>
+                        <p>Tudo começa com uma conversa estratégica 
+                            para entender o objetivo do site, o 
+                            público-alvo e as necessidades do 
+                            cliente. Nessa fase, são definidos os 
+                            requisitos principais, referências 
+                            visuais e metas do projeto, garantindo 
+                            que todos estejam alinhados antes de iniciar.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="funcionalidades">
+                    <div class="cards-funcio">
+                        <img src="./assets/analysis.svg" alt="">
+                        <h4>Briefing e Alinhamento</h4>
+                        <p>Tudo começa com uma conversa estratégica 
+                            para entender o objetivo do site, o 
+                            público-alvo e as necessidades do 
+                            cliente. Nessa fase, são definidos os 
+                            requisitos principais, referências 
+                            visuais e metas do projeto, garantindo 
+                            que todos estejam alinhados antes de iniciar.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="funcionalidades">
+                    <div class="cards-funcio">
+                        <img src="./assets/analysis.svg" alt="">
+                        <h4>Briefing e Alinhamento</h4>
+                        <p>Tudo começa com uma conversa estratégica 
+                            para entender o objetivo do site, o 
+                            público-alvo e as necessidades do 
+                            cliente. Nessa fase, são definidos os 
+                            requisitos principais, referências 
+                            visuais e metas do projeto, garantindo 
+                            que todos estejam alinhados antes de iniciar.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="funcionalidades">
+                    <div class="cards-funcio">
+                        <img src="./assets/analysis.svg" alt="">
+                        <h4>Briefing e Alinhamento</h4>
+                        <p>Tudo começa com uma conversa estratégica 
+                            para entender o objetivo do site, o 
+                            público-alvo e as necessidades do 
+                            cliente. Nessa fase, são definidos os 
+                            requisitos principais, referências 
+                            visuais e metas do projeto, garantindo 
+                            que todos estejam alinhados antes de iniciar.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="funcionalidades">
+                    <div class="cards-funcio">
+                        <img src="./assets/analysis.svg" alt="">
+                        <h4>Briefing e Alinhamento</h4>
+                        <p>Tudo começa com uma conversa estratégica 
+                            para entender o objetivo do site, o 
+                            público-alvo e as necessidades do 
+                            cliente. Nessa fase, são definidos os 
+                            requisitos principais, referências 
+                            visuais e metas do projeto, garantindo 
+                            que todos estejam alinhados antes de iniciar.</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+        </section> -->
+        <!-- Final Funcionamento do Site -->
+
+        
 
         <section class="faq">
             
@@ -507,7 +505,7 @@
         </section>
 
 
-        <section class="formulario_de_contato">
+        <section id="contato" class="formulario_de_contato">
 
             <div class="pai-formulario site">
                 <div class="formulario-esquerda">
@@ -608,10 +606,10 @@
                 <div class="rodape-links">
                     <h4>Agência</h4>
                     <ul>
-                        <li><a href="">Sobre nós</a></li>
-                        <li><a href="">Nosso Time</a></li>
-                        <li><a href="">Estudo de Casos</a></li>
-                        <li><a href="">Fale Conosco</a></li>
+                        <li><a href="#sobre">Sobre nós</a></li>
+                        <li><a href="#time">Nosso Time</a></li>
+                        <li><a href="#">Estudo de Casos</a></li>
+                        <li><a href="#contato">Fale Conosco</a></li>
                     </ul>    
 
                 </div>

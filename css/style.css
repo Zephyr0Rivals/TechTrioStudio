@@ -190,10 +190,10 @@ body{
 }
 
 .redeSociais li:hover{
-    background-color: var(--cor-fundo-2);
+    background-color: var(--cor-destaque-claro);
     transform: translateY(-3px) scale(1.12);
     /*box-shadow: X Y Desfoque Cor*/
-    box-shadow: 0 5px 10px var(--cor-primaria);
+    box-shadow: 0 5px 10px var(--cor-fundo-2);
 }
 
 .menu .redeSociais a{
@@ -374,7 +374,14 @@ body{
 }
 
 .equipe header h3 {
-    margin-bottom: 50px;
+    margin-bottom: 16px;
+}
+
+.equipe header h4 {
+    line-height: 1.5;
+    font-size: 24px;
+    color: var(--cor-texto);
+    margin-bottom: 40px;
 }
 
 /* .cabecario-equipe p{
@@ -392,16 +399,12 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* width: 400px;
-    height: 460px;
-    background-color: yellow; */
     border: 1px solid var(--cor-traço);
-    /* margin: 50px 0; */
     border-radius: 12px;
 }
 
 .card img{
-    width: 400px;
+    width: 332px;
     height: 280px;
     border-radius: 12px 12px 0 0;
     
@@ -413,13 +416,14 @@ body{
 }
 
 .card-main img{
-    width: 550px;
-    height: 433px;
+    width: 432x;
+    height: 333px;
     object-fit: cover;
+
 }
 
 .card:hover img {
-    width: 450px;
+    width: 432px;
     height: 333px;
     box-shadow: 0px 10px 20px rgba(0,0,0, 0.7);
 }
@@ -432,21 +436,25 @@ body{
 }
 
 .card-main h3{
-    width: 450px;
+    width: 400xx;
     height: 70px;
     background-color: var(--cor-fundo-2);
 }
 
 .card h3{
-    width: 400px;
+    width: 300px;
     height: 70px;
+    padding: 16px;
     background-color: var(--cor-fundo-2);
     transition: width 0.3s ease-in-out;
     border-radius: 0 0 12px 12px;
+    font-size: 30px;
+    transition: 0.3s ease-in;
 }
 
 .card:hover h3{
-    width: 450px;
+    width: 400px;
+    font-size: 40px;
 }
 
 .card{
@@ -454,72 +462,11 @@ body{
 }
 /* Final de Equipe */
 
-/* ComeÃ§o Funcionamentos do Site */
-.funcionamentos header h3{
-    max-width: 1500px;
-    text-align: center;
-    color: var(--cor-titulo);
-}
-
-.funcional-todos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
-}
-
-.funcionalidades{
-    display: flex;
-    
-    
-}
-
-.cards-funcio{
-    background-color: #008f8C;
-    width: 450px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 40px;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.cards-funcio img{
-    width: 60px;
-    height: 60px;
-    margin-top: 22px;
-    filter: brightness(0) invert(1);
-}
-
-.cards-funcio h4{
-    font-family: var(--fonte-titulo);
-    font-size: 35px;
-    color: var(--cor-titulo);
-    margin: 30px 0;
-}
-
-.cards-funcio p{
-    font-family: var(--fonte-texto);
-    font-size: 24px;
-    color: var(--cor-texto);
-    text-align: center;
-}
-    
-
-
-/* Final Funcionamentos do Site */
-
 /* NOSSOS SERVIÇOS */
 
-.nossos-servicos{
-    max-width: 1500px;
-    margin: 50px auto;
-    text-align: center;
-}
 
 .nossos-servicos header h3{
-    color: var(--cor-secundaria-2);
+    color: var(--cor-titulo);
     font-size: 40px;
     font-family: var(--fonte-titulo);
     margin-bottom: 40px;
@@ -537,7 +484,7 @@ body{
 .nossos-servicos .coluna_de_servicos .coluna_singular{
     max-width: 300px;
     padding: 20px;
-    background-color: #008f8c;
+    background-color: ;
     border-radius: 30px;
 }
 
@@ -562,6 +509,62 @@ body{
 }
 
 /* FIM SERVIÇOS */
+
+/* ComeÃ§o Funcionamentos do Site */
+    /* .funcionamentos header h3{
+        max-width: 1500px;
+        text-align: center;
+        color: var(--cor-titulo);
+    }
+
+    .funcional-todos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .funcionalidades{
+        display: flex;
+        
+        
+    }
+
+    .cards-funcio{
+        background-color: #008f8C;
+        width: 450px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 40px;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .cards-funcio img{
+        width: 60px;
+        height: 60px;
+        margin-top: 22px;
+        filter: brightness(0) invert(1);
+    }
+
+    .cards-funcio h4{
+        font-family: var(--fonte-titulo);
+        font-size: 35px;
+        color: var(--cor-titulo);
+        margin: 30px 0;
+    }
+
+    .cards-funcio p{
+        font-family: var(--fonte-texto);
+        font-size: 24px;
+        color: var(--cor-texto);
+        text-align: center;
+    }
+         */
+
+
+/* Final Funcionamentos do Site */
 
 /* FAQ */
 
